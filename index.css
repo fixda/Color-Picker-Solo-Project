@@ -11,8 +11,13 @@ html, body {
     width: 500px;
 }
 #header-tools{
+    display: flex;
     height: 15%;
     border: 1px yellow solid;
+}
+#color-picker{
+    align-items: center;
+    border: none;
 }
 #color-boxes{
     display: flex;
