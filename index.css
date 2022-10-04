@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+#outer-box{
+    display: flex;
+    flex-direction: column;
+    border: 1px dotted black;
+    border-radius: 4%;
+    height: 500px;
+    width: 500px;
+}
+#header-tools{
+    height: 15%;
+    border: 1px yellow solid;
+}
+#color-boxes{
+    display: flex;
+    height: 75%;
+    border: 1px purple solid;
+}
+#hex-codes{
+    display: flex;
+    height: 10%;
+    border: 1px red solid;
+}
+#color-box1,
+#color-box2,
+#color-box3,
+#color-box4,
+#color-box5{
+    border: 1px solid green;
+    width: 20%;
+}
+#hex-code1,
+#hex-code2,
+#hex-code3,
+#hex-code4,
+#hex-code5{
+    border: 1px solid pink;
+    width: 20%; 
+}
