@@ -7,17 +7,32 @@ html, body {
     flex-direction: column;
     border: 1px dotted black;
     border-radius: 4%;
-    height: 500px;
-    width: 500px;
+    height: 550px;
+    width: 550px;
 }
 #header-tools{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     height: 15%;
     border: 1px yellow solid;
 }
 #color-picker{
-    align-items: center;
-    border: none;
+    height: 46%;
+    border: 0.5px solid #313131;
+    border-radius: 4px;
+}
+#color-scheme{
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    height: 46%;
+    width: 325px;
+}
+#get-color-scheme{
+    background-color: white;
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    height: 46%;
 }
 #color-boxes{
     display: flex;
