@@ -7,8 +7,6 @@ function getFetchAddress(){
     apiCall = "https://www.thecolorapi.com/scheme?hex="+userColor+"&mode="+userScheme+"&count=5"
 }
 
-// console.log(document.getElementById("color-scheme").value)
-
 function getColorScheme(){
     let colorTest = document.getElementById("color-picker").value
     console.log(document.getElementById("color-scheme").value)
@@ -22,13 +20,13 @@ function getColorScheme(){
             for(i=0; i<5; i++){
                 colorData[i] = data.colors[i].hex.value 
             }
+            renderScheme()
     console.log(colorData)})
-    docuement.getElementById("color-box0").style.background = colorData[0]
 }
 
-// function renderScheme(){
-//   for(i=0; i<5; i++){
-//     docuement.getElementById("color-box"+i).style.color = colorData[i];
-//    } 
-//         docuement.getElementById("color-box0").style.color = colorData[0]
-// }
+function renderScheme(){
+  for(i=0; i<5; i++){
+    document.getElementById("color-box"+i).style.background = colorData[i]
+    document.getElementById("hex-code"+i).innerText = colorData[i]
+   } 
+}

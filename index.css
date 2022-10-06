@@ -1,11 +1,16 @@
 html, body {
+    text-align: center;
+    background-color: darkgrey;
+    font-family: 'Inter';
+    font-style: normal;
     margin: 0;
     padding: 0;
 }
 #outer-box{
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    border: 1px dotted black;
+    border: 1px solid black;
     border-radius: 4%;
     height: 550px;
     width: 550px;
@@ -15,48 +20,53 @@ html, body {
     align-items: center;
     justify-content: space-around;
     height: 15%;
-    border: 1px yellow solid;
+    /* border: 1px yellow solid; */
 }
 #color-picker{
     height: 46%;
-    border: 0.5px solid #313131;
+    /* border: 0.5px solid #313131; */
     border-radius: 4px;
 }
 #color-scheme{
-    border: 1px solid #D1D5DB;
+    /* border: 1px solid #D1D5DB; */
     border-radius: 6px;
     height: 46%;
     width: 325px;
 }
 #get-color-scheme{
     background-color: white;
-    border: 1px solid #D1D5DB;
+    /* border: 1px solid #D1D5DB; */
     border-radius: 4px;
     height: 46%;
 }
 #color-boxes{
     display: flex;
     height: 75%;
-    border: 1px purple solid;
+    /* border: 1px purple solid; */
+    background: #FFFFFF;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
 }
 #hex-codes{
     display: flex;
     height: 10%;
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
+#color-box0,
 #color-box1,
 #color-box2,
 #color-box3,
-#color-box4,
-#color-box5{
-    border: 1px solid green;
+#color-box4{
+    /* border: 1px solid green; */
     width: 20%;
 }
+#hex-code0,
 #hex-code1,
 #hex-code2,
 #hex-code3,
-#hex-code4,
-#hex-code5{
-    border: 1px solid pink;
-    width: 20%; 
+#hex-code4{
+    font-weight: 500;
+    /* border: 1px solid pink; */
+    width: 20%;
+    text-align: center;
+    margin: auto;
 }
