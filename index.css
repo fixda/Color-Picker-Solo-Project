@@ -1,12 +1,12 @@
 html, body {
-    text-align: center;
+
     background-color: darkgrey;
     font-family: 'Inter';
     font-style: normal;
-    margin: 0;
     padding: 0;
 }
 #outer-box{
+    margin: 50px auto;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
