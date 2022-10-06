@@ -8,9 +8,6 @@ function getFetchAddress(){
 }
 
 function getColorScheme(){
-    let colorTest = document.getElementById("color-picker").value
-    console.log(document.getElementById("color-scheme").value)
-
     getFetchAddress()
     fetch(apiCall,{method: "GET"})
         .then(res => res.json())
