@@ -24,3 +24,7 @@ function renderScheme(){
     document.getElementById("hex-code"+i).innerText = colorData[i]
    } 
 }
+
+function copyBtn(buttonNumber){
+    navigator.clipboard.writeText(colorData[buttonNumber])
+}
